@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<!--     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/fontset.css"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>303Lowe - VIVID 2015</title>
+  </head>
+  <body>
+
+    <div id="main-container" class="halfpanel">
+        <!-- Create Sections here -->
+        <section class="intro text-center">
+            <h3>Control panel.</h3>
+            <p class="search-words">Searching for: </p>
+        </section>
+
+        <!-- section for showing info ............................... -->
+        <section>
+          <div class="row">
+
+            <div class="social-stream col-md-4">
+              <h4>Twitter feed</h4>
+
+              <div class="twitter">
+                <ul class="tweets"></ul>
+              </div>
+            </div>
+
+            <div class="social-stream instagram col-md-4">
+              <h4>Instagram</h4>
+            </div>
+
+            <div class="social-stream facebook col-md-4">
+              <h4>Facebook</h4>
+            </div>
+
+          </div><!-- end row -->
+        </section>
+
+        <!-- section editing bot ............................... -->
+        <section class="text-center">
+          <div class="row well" style='margin-top:30px;'>
+
+            <h4>Twitter bot panel</h4>
+
+            <div class="col-md-4">
+              <button class="btn btn-primary" type="checkbox" id='bot-toggle'>Toggle Bot</button>
+              <p id="bot-activity">Bot is off</p>
+              <p class="search-words">Searching for: </p>
+
+            </div>
+
+            <div class="col-md-4">
+              <h4>Add new searchable word</h4>
+              <input class="form-control" type="text" id='searchWordText' />
+              <button class="form-control" id='add-new-searchword'>Send to search words</button>
+            </div>
+
+            <div class="col-md-4">
+              <h4>New hashtag endings (promos)</h4>
+              <input class="form-control" type="text" id=''></input>
+              <button class="form-control" id='twit-but'>Send to possible hashtags</button>
+            </div>
+
+          </div><!-- end row -->
+        </section>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- <script src="/socket.io/lib/socket.io.js"></script>
+    <script src="node_modules/socket.io/node_modules/socket.io-client/socket.io.js" type="text/javascript"></script> -->
+    <!-- // <script src="https://cdn.socket.io/socket.io-1.0.0.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+

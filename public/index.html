@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<!--     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/fontset.css"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>303Lowe - VIVID 2015</title>
+  </head>
+  <body>
+
+    <!-- <div id="main-container" class="halfpanel">
+
+    </div> -->
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class ="active" href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Arduino Units</a>
+                </li>
+                <li>
+                    <a href="#">Social</a>
+                </li>
+            </ul>
+
+            <ul class="sidebar-nav">
+
+
+            </ul>
+
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#menu-toggle" class="" id="menu-toggle">
+                          <span class="glyphicon glyphicon-list" ></span>
+                        </a>
+                        <h1>Control Panel v0.0.1</h1>
+                        
+                        <section>
+
+                        </section>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+        
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/socketmanagement.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+  </body>
+</html>
+
+
